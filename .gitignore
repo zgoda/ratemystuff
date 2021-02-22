@@ -1,0 +1,7 @@
+.cache
+dist
+node_modules
+/build
+/*.log
+package-lock.json
+size-plugin.json
