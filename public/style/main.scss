@@ -1,16 +1,11 @@
 @charset "utf-8";
 
-$color-initial: #fff !default;
-$color-primary: #007EA7 !default;
-$color-secondary: #003249 !default;
-$color-tertiary: #EF8354 !default;
-$color-quaternary: #F4A261 !default;
-$color-quinary: #E76F51 !default;
+$primary-color: #4F5D75 !default;
+$dark-color: #303742 !default;
+$light-color: #fff !default;
 
-@import '../../node_modules/milligram/src/milligram.sass';
+$base-font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+@import '../../node_modules/spectre.css/src/spectre.scss';
 
 @import './fonts.scss';
-
-body {
-  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-}

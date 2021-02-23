@@ -6,8 +6,9 @@ const App = (() => {
   useMeta({name: 'author', content: 'Jarek Zgoda'});
 
   return (
-    <div class="container">
+    <div class="container grid-md">
       <h1>Hello, WMR!</h1>
+      <p>It's been loong time!</p>
     </div>
   )
 });
