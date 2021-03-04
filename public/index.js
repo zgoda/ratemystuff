@@ -1,3 +1,4 @@
+import 'preact/debug';
 import hydrate from 'preact-iso/hydrate';
 import { App } from './app';
 
