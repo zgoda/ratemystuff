@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@import "./style/fonts.css";
+
+@import "./style/mvp.css";
+
+:root {
+  --font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
